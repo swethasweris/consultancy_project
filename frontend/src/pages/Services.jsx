@@ -63,7 +63,6 @@ export default function Services() {
         ))}
       </Carousel>
 
-      {/* Services Grid */}
       <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full max-w-6xl">
         {services.map((service, index) => (
           <motion.div
