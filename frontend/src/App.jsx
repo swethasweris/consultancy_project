@@ -7,6 +7,7 @@ import Services from "./pages/Services";
 import Products from "./pages/Products";
 import Projects from "./pages/Projects";
 import Animation from "./pages/Animation";
+import Customers from "./pages/Customers";
 import Navbar from "./components/Navbar";
 import "./index.css";
 
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/products" element={<Products />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/customers" element={<Customers />} />
           <Route path="/animation" element={<Animation />} />
         </Routes>
       </div>
