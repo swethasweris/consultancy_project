@@ -116,7 +116,7 @@ const Contact = () => {
     setResponseMessage("");
     
     try {
-      const res = await axios.post("http://localhost:5000/send-email", formData);
+      const res = await axios.post("https://consultancy-project-backend-cgtf.onrender.com", formData);
       setResponseMessage(res.data.message);
       setFormData({ name: "", email: "", phone: "", message: "", customization: "" });
     } catch (error) {
