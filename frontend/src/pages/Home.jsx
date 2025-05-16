@@ -350,25 +350,28 @@ const Home = () => {
         transition={{ duration: 1 }}
       >
         <div className="container mx-auto">
-          <div className="flex flex-col lg:flex-row items-center">
-            {/* Founder Image */}
-            <div className="lg:w-1/2 flex justify-center mb-10 lg:mb-0">
-              <div className="relative">
-                <div className="absolute inset-0 rounded-full bg-[#8B2323] opacity-10 transform scale-110"></div>
-                <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-white flex items-center justify-center overflow-hidden border-4 border-[#8B2323] shadow-xl">
-                  {/* Placeholder until actual image is available */}
-                  <div className="text-5xl sm:text-6xl text-[#8B2323]">
-                    <i className="fas fa-user"></i>
-                  </div>
-                </div>
-                <div className="absolute -bottom-4 -right-4 w-50 sm:w-50 h-50 sm:h-50 bg-[#8B2323] rounded-full flex items-center justify-center text-white">
-                  <div className="text-center">
-                    <div className="text-xs sm:text-sm font-medium">PROPRIETOR</div>
-                    <div className="text-base sm:text-xl font-bold">GAJANDRAMANI</div>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <div className="flex flex-col lg:flex-row items-center">
+    {/* Founder Image */}
+    <div className="lg:w-1/2 flex justify-center mb-10 lg:mb-0">
+      <div className="relative">
+        <div className="absolute inset-0 rounded-full bg-[#8B2323] opacity-10 transform scale-110"></div>
+        <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-white flex items-center justify-center overflow-hidden border-4 border-[#8B2323] shadow-xl">
+          {/* Using the founder image from public folder */}
+          <img 
+            src="/images/founder.jpg" 
+            alt="Dr. Gajendramani - Founder" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="absolute -bottom-4 -right-4 w-50 sm:w-50 h-50 sm:h-50 bg-[#8B2323] rounded-full flex items-center justify-center text-white">
+          <div className="text-center">
+            <div className="text-xs sm:text-sm font-medium">PROPRIETOR</div>
+            <div className="text-base sm:text-xl font-bold">GAJANDRAMANI</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
             {/* Founder Info */}
             <div className="lg:w-1/2 px-0 sm:px-6 text-center lg:text-left">

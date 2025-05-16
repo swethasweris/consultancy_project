@@ -66,7 +66,7 @@ export default function Animation() {
          
           <div className="w-24 h-1 bg-[#8B2323] mx-auto mb-8"></div>
          
-          <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-black-700 dark:text-black-300 max-w-3xl mx-auto leading-relaxed">
             Visualize your industrial processes with our cutting-edge 3D animations. We transform complex engineering
             concepts into clear, engaging visual experiences that enhance understanding and communication.
           </p>
@@ -86,7 +86,7 @@ export default function Animation() {
             className="bg-[#8B2323] rounded-2xl shadow-xl overflow-hidden mb-16 border border-[#8B2323]/20"
           >
             <div className="p-8 md:p-10">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B2323] dark:text-[#CD5C5C] mb-6">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#8B2323] dark:text-white mb-6">
                 Bringing Engineering Processes to Life
               </h2>
              
@@ -173,7 +173,7 @@ export default function Animation() {
             className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16"
           >
             {/* Animation 1 */}
-            <div className="bg-[#8B2323] rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:shadow-2xl hover:-translate-y-1 border border-[#8B2323]/20">
+            <div className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:shadow-2xl hover:-translate-y-1 border border-[#8B2323]/20">
               <div className="relative aspect-w-16 aspect-h-5 overflow-hidden">
                 {/* Actual video player */}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#8B2323]/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
@@ -191,7 +191,7 @@ export default function Animation() {
               </video>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#8B2323] dark:text-[#CD5C5C] mb-2">Automated Assembly Line</h3>
-                <p className="text-gray-700 dark:text-gray-300 mb-4">
+                <p className="text-black-700 dark:text-black-300 mb-4">
                   Comprehensive animation of our automated assembly line system, highlighting efficiency improvements and quality control measures.
                 </p>
                 <button className="px-4 py-2 bg-[#8B2323] text-white rounded-lg hover:bg-[#A52A2A] transition-colors">
@@ -219,7 +219,7 @@ export default function Animation() {
               </video>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#8B2323] dark:text-[#CD5C5C] mb-2">Automated Assembly Line</h3>
-                <p className="text-gray-700 dark:text-gray-300 mb-4">
+                <p className="text-black-700 dark:text-black-300 mb-4">
                   Comprehensive animation of our automated assembly line system, highlighting efficiency improvements and quality control measures.
                 </p>
                 <button className="px-4 py-2 bg-[#8B2323] text-white rounded-lg hover:bg-[#A52A2A] transition-colors">
